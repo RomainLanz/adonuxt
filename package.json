@@ -20,7 +20,6 @@
     "@adonisjs/fold": "^4.0.9"
   },
   "dependencies": {
-    "hard-source-webpack-plugin": "^0.12.0",
     "nuxt-edge": "^2.0.0-25562603.52780d3"
   }
 }
