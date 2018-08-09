@@ -11,7 +11,7 @@ class NuxtProvider extends ServiceProvider {
    * @return {void}
    */
   register () {
-    this.app.bind('Adonuxt/Commands/Make:Nuxt', () => require('../commands/MakeNuxt'))
+    this.app.bind('Adonuxt/Commands/Nuxt:Build', () => require('../commands/NuxtBuild'))
 
     this.app.singleton('Nuxt', (app) => {
       const Config = app.use('Config')
@@ -35,7 +35,7 @@ class NuxtProvider extends ServiceProvider {
     }
 
     const ace = require('@adonisjs/ace')
-    ace.addCommand('Adonuxt/Commands/Make:Nuxt')
+    ace.addCommand('Adonuxt/Commands/Nuxt:Build')
   }
 }
 
