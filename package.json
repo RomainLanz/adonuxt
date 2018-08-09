@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RomainLanz/adonuxt#readme",
   "devDependencies": {
+    "@adonisjs/ace": "^5.0.4",
     "@adonisjs/fold": "^4.0.9"
   },
   "dependencies": {
