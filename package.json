@@ -1,0 +1,26 @@
+{
+  "name": "adonuxt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomainLanz/adonuxt.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RomainLanz/adonuxt/issues"
+  },
+  "homepage": "https://github.com/RomainLanz/adonuxt#readme",
+  "devDependencies": {
+    "@adonisjs/fold": "^4.0.9"
+  },
+  "dependencies": {
+    "hard-source-webpack-plugin": "^0.12.0",
+    "nuxt-edge": "^2.0.0-25562603.52780d3"
+  }
+}
