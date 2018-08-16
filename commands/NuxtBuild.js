@@ -1,6 +1,5 @@
 'use strict'
 
-const Nuxt = use('Nuxt')
 const { Command } = require('@adonisjs/ace')
 
 class NuxtBuild extends Command {
@@ -31,7 +30,13 @@ class NuxtBuild extends Command {
    * @return {void}
    */
   handle () {
-    Nuxt.build()
+    const Config = use('Config')
+    const Nuxt = require('../src/Nuxt')
+
+    new Nuxt({
+      ...Config.get('nuxt'),
+      dev: false // Force dev: false to build for production
+    }).build()
   }
 
 }
