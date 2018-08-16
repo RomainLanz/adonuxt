@@ -1,3 +1,9 @@
+## Install Nuxt.js into your project
+
+```bash
+npm install --save nuxt-edge
+```
+
 ## Registering provider
 
 The provider is registered inside `start/app.js` file under `providers` array.
