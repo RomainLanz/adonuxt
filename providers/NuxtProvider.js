@@ -30,10 +30,6 @@ class NuxtProvider extends ServiceProvider {
    * @return {void}
   */
   boot () {
-    if (process.env.NODE_ENV === 'development') {
-      this.app.use('Nuxt').build()
-    }
-
     const ace = require('@adonisjs/ace')
     ace.addCommand('Adonuxt/Commands/Nuxt:Build')
   }

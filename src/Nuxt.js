@@ -40,6 +40,7 @@ class NuxtService {
   _computeConfig (config) {
     const defaultConfig = {
       build: {
+        dev: process.env.NODE_ENV !== 'production',
         analyze: {
           analyzerMode: 'static',
           generateStatsFile: true,
