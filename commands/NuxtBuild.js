@@ -18,7 +18,7 @@ class NuxtBuild extends Command {
    * @return {string}
    */
   static get description () {
-    return 'Build your Nuxt app(s)'
+    return 'Build your Nuxt app'
 }
   /**
    * Method called when command is executed. This method will
