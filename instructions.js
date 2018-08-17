@@ -7,7 +7,7 @@ module.exports = async function (cli) {
     .catch((e) => {})
   cli.command.completed('create', 'config/nuxt.js')
 
-  await cli.copy(join(__dirname, 'template'), join(cli.helpers.appRoot(), 'nuxt'))
+  await cli.copy(join(__dirname, 'template'), join(cli.helpers.appRoot(), '.nuxt'))
     .catch((e) => {})
-  cli.command.completed('create', 'nuxt/')
+  cli.command.completed('create', '.nuxt/')
 }
