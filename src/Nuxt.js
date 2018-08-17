@@ -1,7 +1,7 @@
 'use strict'
 
-const { Builder } = require('nuxt')
-const { Nuxt } = require('nuxt/dist/nuxt-start')
+const { Builder } = require('nuxt-edge')
+const { Nuxt } = require('nuxt-edge/dist/nuxt-start')
 
 class NuxtService {
   constructor (config) {

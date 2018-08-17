@@ -21,6 +21,6 @@
     "@adonisjs/fold": "^4.0.9"
   },
   "peerDependencies": {
-    "nuxt": "^1.4.2"
+    "nuxt-edge": "2.x"
   }
 }
